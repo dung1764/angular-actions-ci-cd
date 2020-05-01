@@ -1,11 +1,16 @@
 import { TestBed, async } from '@angular/core/testing';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppComponent } from './app.component';
-
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent
+      ],
+      imports: [
+        MatGridListModule,
+        FontAwesomeModule
       ],
     }).compileComponents();
   }));
