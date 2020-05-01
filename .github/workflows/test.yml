@@ -1,8 +1,8 @@
-name: Build and Deploy
+name: UnitTest
 on:
   push:
     branches:
-      - !master
+      - develop
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
