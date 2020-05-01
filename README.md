@@ -1,3 +1,6 @@
+![](https://github.com/dung1764/angular-actions-ci-cd/workflows/Build%20and%20Deploy/badge.svg?branch=master)
+
+
 # GithubActions
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
