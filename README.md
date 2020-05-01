@@ -1,3 +1,4 @@
+![](https://github.com/dung1764/angular-actions-ci-cd/workflows/UnitTest/badge.svg?branch=develop)
 ![](https://github.com/dung1764/angular-actions-ci-cd/workflows/Build%20and%20Deploy/badge.svg?branch=master)
 
 
