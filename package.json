@@ -5,9 +5,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "build:prod": "ng build --prod --base-href=/angular-actions-ci-cd/",
+    "test": "ng test --watch=false --browsers=ChromeHeadlessCustom",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:ci": "npm run clean && npm run build:prod"
   },
   "private": true,
   "dependencies": {
