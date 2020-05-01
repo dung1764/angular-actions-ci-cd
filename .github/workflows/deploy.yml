@@ -13,8 +13,8 @@ jobs:
         with:
           node-version: '12.x'
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
+        uses: JamesIves/github-pages-deploy-action@releases/v2
+        env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BASE_BRANCH: master
           BRANCH: gh-pages
