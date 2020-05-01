@@ -26,5 +26,5 @@ jobs:
       - name: Test
         run: |
           npm ci
-          npm run test
+          npm run test -- --configuration=ci
 
